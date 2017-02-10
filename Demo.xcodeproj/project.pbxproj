@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		222319F71E4E2CF2003A2EA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222319F61E4E2CF2003A2EA7 /* main.m */; };
+		222319FF1E4E2D65003A2EA7 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 222319FE1E4E2D65003A2EA7 /* Shape.m */; };
+		22231A021E4E3119003A2EA7 /* NSString+AppendEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 22231A011E4E3119003A2EA7 /* NSString+AppendEmoji.m */; };
+		22231A051E4E36F5003A2EA7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 22231A041E4E36F5003A2EA7 /* Player.m */; };
+		22231A081E4E3C6B003A2EA7 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 22231A071E4E3C6B003A2EA7 /* Car.m */; };
+		22231A0C1E4E3E68003A2EA7 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 22231A0B1E4E3E68003A2EA7 /* Driver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		222319F31E4E2CF2003A2EA7 /* Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		222319F61E4E2CF2003A2EA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		222319FD1E4E2D65003A2EA7 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		222319FE1E4E2D65003A2EA7 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		22231A001E4E3119003A2EA7 /* NSString+AppendEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AppendEmoji.h"; sourceTree = "<group>"; };
+		22231A011E4E3119003A2EA7 /* NSString+AppendEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AppendEmoji.m"; sourceTree = "<group>"; };
+		22231A031E4E36F5003A2EA7 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		22231A041E4E36F5003A2EA7 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		22231A061E4E3C6B003A2EA7 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		22231A071E4E3C6B003A2EA7 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		22231A091E4E3C9E003A2EA7 /* CarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDelegate.h; sourceTree = "<group>"; };
+		22231A0A1E4E3E68003A2EA7 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		22231A0B1E4E3E68003A2EA7 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				222319F61E4E2CF2003A2EA7 /* main.m */,
+				22231A031E4E36F5003A2EA7 /* Player.h */,
+				22231A041E4E36F5003A2EA7 /* Player.m */,
+				22231A001E4E3119003A2EA7 /* NSString+AppendEmoji.h */,
+				22231A011E4E3119003A2EA7 /* NSString+AppendEmoji.m */,
+				222319FD1E4E2D65003A2EA7 /* Shape.h */,
+				222319FE1E4E2D65003A2EA7 /* Shape.m */,
+				22231A0A1E4E3E68003A2EA7 /* Driver.h */,
+				22231A0B1E4E3E68003A2EA7 /* Driver.m */,
+				22231A091E4E3C9E003A2EA7 /* CarDelegate.h */,
+				22231A061E4E3C6B003A2EA7 /* Car.h */,
+				22231A071E4E3C6B003A2EA7 /* Car.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -120,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22231A081E4E3C6B003A2EA7 /* Car.m in Sources */,
+				22231A0C1E4E3E68003A2EA7 /* Driver.m in Sources */,
+				22231A051E4E36F5003A2EA7 /* Player.m in Sources */,
 				222319F71E4E2CF2003A2EA7 /* main.m in Sources */,
+				222319FF1E4E2D65003A2EA7 /* Shape.m in Sources */,
+				22231A021E4E3119003A2EA7 /* NSString+AppendEmoji.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
